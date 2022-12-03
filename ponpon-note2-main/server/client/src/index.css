@@ -105,6 +105,7 @@ button:hover {
 .note-details {
   background-color: #3f4264;
   padding: 20px;
+  overflow: hidden;
 }
 .note-details h4 {
   margin-top: 0px;
@@ -117,6 +118,7 @@ button:hover {
   margin: 0;
   font-size: 0.9em;
   word-wrap: break-word;
+  margin-top: 10px;
 }
 .note-details .edit,
 .note-details .share,
@@ -602,6 +604,7 @@ label {
   cursor: pointer;
 }
 p {
-  white-space: normal;
+  white-space: pre;
   word-wrap: break-word;
+  text-overflow: ellipsis;
 }
