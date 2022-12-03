@@ -110,10 +110,13 @@ button:hover {
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 1.2em;
+  word-wrap: break-word;
+  margin-right: 120px;
 }
 .note-details p {
   margin: 0;
   font-size: 0.9em;
+  word-wrap: break-word;
 }
 .note-details .edit,
 .note-details .share,
@@ -599,5 +602,6 @@ label {
   cursor: pointer;
 }
 p {
-  white-space: pre;
+  white-space: normal;
+  word-wrap: break-word;
 }
