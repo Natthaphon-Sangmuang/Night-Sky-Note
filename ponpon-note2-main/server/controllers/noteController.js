@@ -43,6 +43,9 @@ const createNote = async (req, res) => {
   if (!content) {
     emptyFields.push("content");
   }
+    if (!priority) {
+    emptyFields.push("priority");
+  }
   if (emptyFields.length > 0) {
     return res
       .status(400)
