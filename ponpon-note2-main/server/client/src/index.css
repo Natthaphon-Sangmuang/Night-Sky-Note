@@ -604,7 +604,5 @@ label {
   cursor: pointer;
 }
 p {
-  white-space: pre;
-  word-wrap: break-word;
-  text-overflow: ellipsis;
+  white-space: pre-wrap;
 }
